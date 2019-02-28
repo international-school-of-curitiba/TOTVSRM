@@ -1,0 +1,25 @@
+-- CODETAPA 1 IS THE 1st QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5A', NumProva, PontConc, PontNum, Notafalta, '1', Descricao, MediaProva  from UDataAval where codtur = '1A' AND CODETAPA = '1' and CodMat = '201PED' and CodPerlet = '07/08'
+-- CODETAPA 2 IS THE 2ND QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5A', NumProva, PontConc, PontNum, Notafalta, '2', Descricao, MediaProva  from UDataAval where codtur = '1A' AND CODETAPA = '2' and CodMat = '201PED' and CodPerlet = '07/08'
+-- CODETAPA 6 IS THE 3RD QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5A', NumProva, PontConc, PontNum, Notafalta, '6', Descricao, MediaProva  from UDataAval where codtur = '1A' AND CODETAPA = '6' and CodMat = '201PED' and CodPerlet = '07/08'
+-- CODETAPA 7 IS THE 4TH QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5A', NumProva, PontConc, PontNum, Notafalta, '7', Descricao, MediaProva  from UDataAval where codtur = '1A' AND CODETAPA = '7' and CodMat = '201PED' and CodPerlet = '07/08'
+
+-- CODETAPA 1 IS THE 1st QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5B', NumProva, PontConc, PontNum, Notafalta, '1', Descricao, MediaProva  from UDataAval where codtur = '1B' AND CODETAPA = '1' and CodMat = '201PED' and CodPerlet = '07/08'
+-- CODETAPA 2 IS THE 2ND QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5B', NumProva, PontConc, PontNum, Notafalta, '2', Descricao, MediaProva  from UDataAval where codtur = '1B' AND CODETAPA = '2' and CodMat = '201PED' and CodPerlet = '07/08'
+-- CODETAPA 6 IS THE 3RD QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5B', NumProva, PontConc, PontNum, Notafalta, '6', Descricao, MediaProva  from UDataAval where codtur = '1B' AND CODETAPA = '6' and CodMat = '201PED' and CodPerlet = '07/08'
+-- CODETAPA 7 IS THE 4TH QUARTER
+Insert into UDataAval (Codcoligada, Codfilial,Codperlet, CodMat, CodTur, NumProva, PontConc, PontNum, Notafalta, CodEtapa, Descricao, MediaProva) 
+Select   Codcoligada, Codfilial,Codperlet, '205PED', '5B', NumProva, PontConc, PontNum, Notafalta, '7', Descricao, MediaProva  from UDataAval where codtur = '1B' AND CODETAPA = '7' and CodMat = '201PED' and CodPerlet = '07/08'
