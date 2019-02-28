@@ -1,0 +1,25 @@
+/* Select distinct UProfmatturma.codprof
+from umatturma, Uprofmatturma
+where umatturma.codmat = UProfmatturma.codmat 
+and umatturma.codperlet ='16/17'
+and umatturma.codcur = '1' */
+
+-- PROFESSORES ECC
+
+-- STAFF EXPORT FOR JUPITER
+
+SELECT DISTINCT 'ELEM' AS SCHOOL, P.CHAPA AS STAFF_ID, P.NOME AS FULLNAME, PES.EMAIL AS EMAIL, PES.APELIDO, dbo.FormatName(p.nome,'L'),
+dbo.FormatName(p.nome,'F M')
+	FROM EPROFES P
+	INNER JOIN PFUNC F ON F.CHAPA = P.CHAPA
+	INNER JOIN PPESSOA PES ON PES.CODIGO = P.CODPESSOA
+	--INNER JOIN UPROFMATTURMA PF ON PF.CODPROF = P.CODPROF
+	--INNER JOIN UMATTURMA T ON T.CODMAT = PF.CODMAT AND PF.CODPERLET = T.CODPERLET
+WHERE
+	--PF.CODPERLET = '16/17'
+	--AND T.CODCUR >= 2
+	--AND T.CODPER > 1
+	--AND PF.TIPOPROF = 'T'
+	F.CODSITUACAO <> 'D' AND F.CHAPA = 000522
+--ORDER BY
+--	T.CODCUR, T.CODPER
